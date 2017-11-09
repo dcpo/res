@@ -14,9 +14,9 @@
     &--small {
         font-size: 1.5rem;
         @mixin atSmall {
-            font-size: 1.875rem;
+            font-size: 1.875rem;  
         }
-    }
+    } 
     &--narrow {
         max-width: 500px;
         margin-left: auto;

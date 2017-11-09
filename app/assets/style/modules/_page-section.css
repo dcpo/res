@@ -23,7 +23,10 @@
         background-color: #e0e6ef;
         @mixin atLarge {
             &.lazyloaded {
-                background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
+                /* 
+                for backgorund image
+                ../../ for web say go up two folder relted to this css */
+                background: url("../../assets/images/testimonials-bg.jpg") top center no-repeat;
                 background-size: cover;
             }
         }
