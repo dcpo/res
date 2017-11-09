@@ -1,0 +1,10 @@
+.social-icons {
+    text-align: center;
+    &__icon {
+        background-color: red;
+        display: inline-block;
+        .icon {
+            display: block;
+        }
+    }
+}
