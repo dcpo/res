@@ -513,6 +513,10 @@ ul{
 
 .site-header h1{
     font-size: 20px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .primary-nav{
