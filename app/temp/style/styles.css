@@ -451,7 +451,7 @@ template {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: #333;
 }
 
@@ -467,7 +467,12 @@ img {
 
 a {
     text-decoration: none;
-    color: #d59541;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding:0;
 }
 
 .wrapper {
@@ -477,5 +482,189 @@ a {
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+   
+}
+
+.site-header{
+    background-color: #3A9AD9;
+    width: 100%;
+    color: white;
+    z-index: 3;
+
+
+
+
+}
+
+.site-header::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.site-header h1{
+         float: left;
+     }
+
+.site-header__btn-container{
+        float: right;
+        padding-top: 12px;
+    }
+
+.site-header h1{
+    font-size: 20px;
+}
+
+.primary-nav{
+    padding-top: 30px;
+ }
+
+.primary-nav--right{
+    float: right;  
+   }
+
+.primary-nav--right li{
+    list-style: none;
+    float: left;
+    display: block;
+    padding-right: 20px;
+   
+
+}
+
+.btn {
+    background-color: #29ABA4;
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    margin-top: 4px;
+    
+}
+
+.btn:hover{
+        color: black;
+    }
+
+.btn--large
+    {
+        width: 190px;
+    }
+
+.hero{
+    color: white;
+    background-color:#354458;
+    height: 600px;
+     position: relative;
+}
+
+.text{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    
+    
+}
+
+.generic p {
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0 0 1.8rem 0;
+}
+
+.page-section{
+     padding: 4.5rem 0;
+}
+
+@media screen and (min-width: 800px) {
+    .page-section__fullvh{
+  
+    
+  }
+    }
+
+.page-section--port{
+
+    background-color: #E9E0D6;
+    padding:50px 0;
+  }
+
+.project a{
+    color: black;
+    text-decoration: underline;
+
+}
+
+.proj{
+  width: 100%;
+
+}
+
+@media screen and (min-width: 800px) {
+.project{
+    float: left;
+    
+}
+.proj{
+   width: 50%;
+ margin-left: 300px;
+    
+}
+    }
+
+.site-footer{
+
+    background-color: #EB7260;
+    padding:12px 0 ;
+}
+
+.site-footer p {
+        margin: 0;
+        text-align: center;
+    }
+
+@media screen and (min-width: 800px) {
+        .contain_flex{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width:100%;
+           
+      }
+    
+        .contain_flex > div{
+            width: 50%;
+            padding: 10px;
+            
+        }
+    }
+
+.modal{
+    position: fixed;
+    z-index: 5;
+    opacity: 0;
+    top: 50%;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    -webkit-transform: translateY(-50%)  ;
+            transform: translateY(-50%)  ;
+    text-align: center;
+   -webkit-transition: opacity .7s ease-out;
+   transition: opacity .7s ease-out;
+   
+
+     visibility: hidden; 
+    background-color: rgba(255, 255, 255, .94);
+}
+
+.vmodal{
+    opacity: 1;
+    visibility: visible;
    
 }

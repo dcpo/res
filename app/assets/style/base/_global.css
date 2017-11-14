@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: #333;
 }
 
@@ -14,5 +14,9 @@ img {
 
 a {
     text-decoration: none;
-    color: $mainOrange;
+    color: white;
+}
+ul{
+    margin: 0;
+    padding:0;
 }

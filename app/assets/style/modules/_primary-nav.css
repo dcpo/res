@@ -1,0 +1,16 @@
+.primary-nav{
+    padding-top: 30px;
+  
+    &--right{
+    float: right;
+   
+   & li{
+    list-style: none;
+    float: left;
+    display: block;
+    padding-right: 20px;
+   
+
+}  
+   }
+ }

@@ -1,0 +1,11 @@
+.site-footer{
+
+    background-color: $footer;
+    padding:12px 0 ;
+
+
+    & p {
+        margin: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,36 @@
+.page-section{
+     padding: 4.5rem 0; 
+  @mixin atMedium{
+    &__fullvh{
+  
+    
+  }
+}
+
+  &--port{
+
+    background-color: $port;
+    padding:50px 0;
+  }
+}
+
+.project a{
+    color: black;
+    text-decoration: underline;
+
+}
+.proj{
+  width: 100%;
+
+}
+@mixin atMedium{
+.project{
+    float: left;
+    
+}
+.proj{
+   width: 50%;
+ margin-left: 300px;
+    
+}
+}

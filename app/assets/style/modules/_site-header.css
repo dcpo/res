@@ -1,0 +1,25 @@
+.site-header{
+    @mixin clearfix;
+    background-color: $header;
+    width: 100%;
+    color: white;
+    z-index: 3;
+    
+
+     & h1{
+         float: left;
+     }
+
+     &__btn-container{
+        float: right;
+        padding-top: 12px;
+    }
+
+
+
+
+}
+
+.site-header h1{
+    font-size: 20px;
+}

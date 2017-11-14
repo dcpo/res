@@ -1,0 +1,21 @@
+.text{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    
+    
+}
+
+
+
+.generic{
+
+    p {
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0 0 1.8rem 0;
+}
+
+}
